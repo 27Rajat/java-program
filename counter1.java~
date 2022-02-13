@@ -1,0 +1,18 @@
+
+class counter{
+int CD(int n){
+if(n == 0){
+return 0;
+}
+return n;
+CD(n-1);
+}
+}
+class counter1{
+public static void main(String args[])
+{
+counter s = new counter();
+int ans = s.CD(10);
+System.out.println("The num is :" + ans);
+}
+}
